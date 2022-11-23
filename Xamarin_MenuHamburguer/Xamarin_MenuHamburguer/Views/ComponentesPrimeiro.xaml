@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarin_MenuHamburguer.Views.ComponentesPrimeiro"
+             BackgroundColor="#f3f2f0"
+             Title="Componentes do Primeiro Ano">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout VerticalOptions="CenterAndExpand" Padding="10">
+
+                <Button Text="Banco de Dados I" Clicked="banco_clicked" Style="{StaticResource botaoCinza}"/>
+                <Button Text="Análise e Projeto de Sistemas" Clicked="analise_clicked" Style="{StaticResource botaoCinza}"/>
+                <Button Text="Design Digital" Clicked="design_clicked" Style="{StaticResource botaoCinza}"/>
+                <Button Text="Programação Web I" Clicked="web_clicked" Style="{StaticResource botaoCinza}"/>
+                <Button Text="Fundamentos da Informática" Clicked="fundamentos_clicked" Style="{StaticResource botaoCinza}"/>
+                <Button Text="Técnicas de Programação e Algoritmo" Clicked="tecnicas_clicked" Style="{StaticResource botaoCinza}"/>
+                <Button Text="Português" Clicked="Port_clicked" Style="{StaticResource botaoVermelho}"/>
+                <Button Text="Inglês" Clicked="ingles_clicked" Style="{StaticResource botaoVermelho}"/>
+                <Button Text="Geografia" Clicked="geo_clicked" Style="{StaticResource botaoVermelho}"/>
+                <Button Text="Matemática" Clicked="mat_clicked" Style="{StaticResource botaoVermelho}"/>
+                <Button Text="Biologia" Clicked="bio_clicked" Style="{StaticResource botaoVermelho}"/>
+                <Button Text="Química" Clicked="quimica_clicked" Style="{StaticResource botaoVermelho}"/>
+                <Button Text="História" Clicked="hist_clicked" Style="{StaticResource botaoVermelho}"/>
+                <Button Text="Física" Clicked="fisica_clicked" Style="{StaticResource botaoVermelho}"/>
+                <Button Text="Filosofia" Clicked="filoso_clicked" Style="{StaticResource botaoVermelho}"/>
+                <Button Text="Sociologia" Clicked="socio_clicked" Style="{StaticResource botaoVermelho}"/>
+                <Button Text="Artes" Clicked="artes_clicked" Style="{StaticResource botaoVermelho}"/>
+                <Button Text="Educação Física" Clicked="educacao_clicked" Style="{StaticResource botaoVermelho}"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

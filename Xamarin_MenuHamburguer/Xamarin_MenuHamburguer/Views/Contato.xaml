@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarin_MenuHamburguer.Views.Contato"
+             Title="Componentes do Segundo Ano">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand" Padding="10">
+            <Label Text="ETEC Joaquim Ferreira do Amaral" FontSize="Title" FontAttributes="Bold"
+                   VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+            <Label Text="Rua Humaitá, nº1090 - Jaú (SP)" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+            <Button Text="Tel: (14) 3622-3566" Margin="10" Clicked="Button_Clicked" Style="{StaticResource botaoVermelho}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

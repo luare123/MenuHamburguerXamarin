@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarin_MenuHamburguer.MainPage">
+
+    <MasterDetailPage.Master>
+        <ContentPage Title="menu">
+            <Grid BackgroundColor="#3E474C">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="160"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <StackLayout Grid.Row="0" Background="white" Padding="10" Margin="10" HorizontalOptions="FillAndExpand">
+                    <Image Source="https://cdn.mundodastribos.com/2011/01/ETEC-Jau-SP-Cursos-Enderecos.jpg" Aspect="AspectFit" HeightRequest="125"/>
+                </StackLayout>
+                <StackLayout Grid.Row="1" Spacing="10" Margin="10" Padding="10" BackgroundColor="#F3F2F0">
+                    <Label x:Name="lbl_boasvindas"/>
+                    <Button Text="Inicial" Clicked="open_inicial" Style="{StaticResource botaoVermelho}"/>
+                    <Button Text="Primeiro Ano" Clicked="open_primeiro" Style="{StaticResource botaoCinza}"/>
+                    <Button Text="Segundo Ano" Clicked="open_segundo" Style="{StaticResource botaoCinza}"/>
+                    <Button Text="Terceiro Ano" Clicked="open_terceiro" Style="{StaticResource botaoCinza}"/>
+                    <Button Text="Vestibulinho" Clicked="open_vestibulinho" Style="{StaticResource botaoVermelho}"/>
+                    <Button Text="Contato" Clicked="open_contato" Style="{StaticResource botaoVermelho}"/>
+                    <Label/>
+                    <Label/>
+                    <Label/>
+                    <Label/>
+                    <Label/>
+                    <Button Text="Sair" Clicked="sair_clicked" Style="{StaticResource botaoCinza}"/>
+                </StackLayout>
+            </Grid>
+        </ContentPage>
+    </MasterDetailPage.Master>
+
+    <MasterDetailPage.Detail>
+        <NavigationPage>            
+        </NavigationPage>
+    </MasterDetailPage.Detail>
+
+</MasterDetailPage>

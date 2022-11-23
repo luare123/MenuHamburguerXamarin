@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarin_MenuHamburguer.Inicial"
+             BackgroundColor="#f3f2f0"
+             Title="App guia do ETIM DS">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+                <Label Text="Olá! Este App é para guia-lo pelo ETIM (Ensino Técnico Integrado ao Médio) Desenvolvimento de Sistemas"                
+                       FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+                <Label/>
+                <Label Text="O ETIM possui três anos como um ensino médio comum mas junto das aulas comuns temos aulas do curso"
+                       FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+                <Label/>
+                <Label/>               
+                <Label Text="Este app foi desenvolvido sob a orientação do Prof. Tiago e do Prof. Marcos"
+                       HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
